@@ -22,15 +22,31 @@
     .message #p:hover{
         color: palevioletred;
         cursor: pointer;
+    }
+    .message #img{
+        width: 300px;
+    }
+@media (max-width: 690px){
+    #p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 470px ){
+    #img{
+        height: 150px;
+        width: 160px;
+    }
+    #p{
+        font-size: 10px;
+    }
 }
 
+ 
 </style>
 <body>
     <div class="message"> 
-
-
         <img id="img" src="https://damion.club/uploads/posts/2022-11/1668784487_damion-club-p-super-milie-kotiki-instagram-65.jpg" 
-        alt="котик" width="300px">
+        alt="котик" >
          <a href="https://t.me/xuhar" id="p"> Упс! Сообщение не отправлено, так как разработчик не знает, что такое php ;(
             Нооооо все-равно спасибо за Ваш труд в написании того сообщения. 
              Напишите мне лучше в телеграм, там я точно отвечу!</a>
